@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="feb3-apiFlow" doc:id="63d76f3d-4f0b-40cb-9362-58bd3536f0d3" >
 		<http:listener doc:name="Listener GET/git" doc:id="552fa3d5-187c-4e74-8426-70afd9234b5c" config-ref="HTTP_Listener_config" path="git"/>
-		<set-payload value="payload-1" doc:name="Set Payload" doc:id="a1d6dbc0-9def-4878-9045-aaf9d7ebb18e" />
-		<logger level="INFO" doc:name="Logger" doc:id="abf3e3bc-ab21-4077-bc0b-7b89cb0fa1f4" message="logger-1"/>
+		<set-payload value="payload-2" doc:name="Set Payload" doc:id="a1d6dbc0-9def-4878-9045-aaf9d7ebb18e" />
+		<logger level="INFO" doc:name="Logger" doc:id="abf3e3bc-ab21-4077-bc0b-7b89cb0fa1f4" message="logger-2"/>
 	</flow>
 </mule>
